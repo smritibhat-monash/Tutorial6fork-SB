@@ -29,3 +29,9 @@ geom_point()
 grid.arrange(p1, p2)
 ```
 
+## Adding a New Figure
+```{r}
+ggplot(cars, aes(speed, dist)) + geom_point()
+```
+
+
